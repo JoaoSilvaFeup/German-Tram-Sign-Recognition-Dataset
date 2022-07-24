@@ -70,4 +70,4 @@ Since the dataset does not feature a balanced distribution of appearances, which
 
 The manually devised SVGs can be inserted into real scenes, after being converted to PNGs. These, during the conversion process, can take any size desired, since SVGs are "infinitly" scalable.
 
-The *SVGs folder* contains the workspace used in *"ideal signs.svg"*.
+The **SVGs folder** contains the workspace used in *"ideal signs.svg"*.
