@@ -74,4 +74,4 @@ The **Ideal Signs folder** contains the workspace used, in the *"ideal signs.svg
 
 Additionally, in the **Ideal Signs / Base SVGs folder**, one can find the exported base classes, featured in the *"Seen German Tram Signs"* PDF.
 
-Lastly, in the **Ideal Signs / SVG Signs folder**, all variations observed in the videos are also created as SVGs.
+Lastly, in the **Ideal Signs / SVG Signs folder**, all variations observed in the videos were also created as SVGs.
