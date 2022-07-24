@@ -28,4 +28,12 @@ Since no clear documentation could be found, in English, compiling all existent 
 
 Since the initially constructed document targeted too many signs, upon the revision of the videos, a filtered list was created, targeting only the signs that always influenced the tram driver.
 
-These list can be found in the **Targets folder**. The overall one is called *"German Tram Signs"*, while the filtered one is called *"Seen German Tram Signs"*.
+These lists can be found in the **Targets folder**. The overall one is called *"German Tram Signs"*, while the filtered one is called *"Seen German Tram Signs"*.
+
+### Videos Used
+
+The [YouTube playlist](https://youtube.com/playlist?list=PLXu4ZCM9_2LyYf7cVcswrJfHWGpOGcLfG) contains 12 videos. From these, by order of appearance, videos nº9 and nº10 were not used, as they were captured in undesirable circumstances.
+
+### MATLAB
+
+
