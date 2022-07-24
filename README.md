@@ -41,3 +41,5 @@ The videos were downloaded using [VLC Media Player](https://www.videolan.org/vlc
 To reduce the number of frames and avoid unnecessary labelling, the videos were downsampled using the MATLAB script present in the **Matlab folder**, *"less_fps.m"*. The original videos have 25fps, which are then reduced to 5 frames for each second passed (5 times less frames). Lastly, the videos are saved using the 25fps rate to speed up the annotation process.
 
 Using MATLAB's [Video Labeler Tool](https://www.mathworks.com/help/vision/ug/get-started-with-the-video-labeler.html?s_tid=mwa_osa_a), each downsampled video was labelled, using the labels presented in the *"Seen German Tram Signs"* PDF.
+
+Since MATLAB is a proprietary software, for each Labelling Session, a [GroundTruth object](https://www.mathworks.com/help/vision/ref/groundtruth.html) was saved and a CVS was exported, containing the annotations. For each CSV, a filtered JSON was created with Python.
