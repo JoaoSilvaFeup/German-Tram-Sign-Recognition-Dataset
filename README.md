@@ -28,7 +28,7 @@ Since no clear documentation could be found, in English, compiling all existent 
 
 Since the initially constructed document targeted too many signs, upon the revision of the videos, a filtered list was created, targeting only the signs that always influenced the tram driver.
 
-These lists can be found in the **Targets folder**. The overall one is called *"German Tram Signs"*, while the filtered one is called *"Seen German Tram Signs"*.
+These lists can be found in the **_Targets_ folder**. The overall one is called *"German Tram Signs"*, while the filtered one is called *"Seen German Tram Signs"*.
 
 ### Videos Used
 
@@ -38,17 +38,17 @@ The videos were downloaded using [VLC Media Player](https://www.videolan.org/vlc
 
 ### MATLAB
 
-To reduce the number of frames and avoid unnecessary labelling, the videos were downsampled using the MATLAB script present in the **Matlab folder**, *"less_fps.m"*. The original videos have 25fps, which are then reduced to 5 frames for each second passed (5 times less frames). Lastly, the videos are saved using the 25fps rate to speed up the annotation process.
+To reduce the number of frames and avoid unnecessary labelling, the videos were downsampled using the MATLAB script present in the **_Matlab_ folder**, *"less_fps.m"*. The original videos have 25fps, which are then reduced to 5 frames for each second passed (5 times less frames). Lastly, the videos are saved using the 25fps rate to speed up the annotation process.
 
-Using MATLAB's [Video Labeler Tool](https://www.mathworks.com/help/vision/ug/get-started-with-the-video-labeler.html?s_tid=mwa_osa_a), each downsampled video was labelled, using the labels presented in the *"Seen German Tram Signs"* PDF.
+Using MATLAB's [Video Labeler Tool](https://www.mathworks.com/help/vision/ug/get-started-with-the-video-labeler.html?s_tid=mwa_osa_a), each downsampled video was labelled, using the classes / labels presented in the *"Seen German Tram Signs"* PDF.
 
-Since MATLAB is a proprietary software, for each Labelling Session, a [GroundTruth object](https://www.mathworks.com/help/vision/ref/groundtruth.html) was saved and a CVS was exported, containing the annotations. For each CSV, a filtered JSON was created with Python.
+Since MATLAB is a proprietary software, for each Labelling Session, a [GroundTruth object](https://www.mathworks.com/help/vision/ref/groundtruth.html) was saved and a CVS was exported, containing the annotations. For each CSV, a filtered JSON file was created with Python.
 
 ## Annotations
 
 ### Detection
 
-In the **Annotations/Detection folder**, one can find a JSON file for each downsampled video. Each frame is identified by a *Python Dict*, with a timestamp as *key* and corresponding Bounding Boxes as *value*. An example of a frame can be found in the figure below.
+In the **_Annotations/Detection_ folder**, one can find a JSON file for each downsampled video. Each frame is identified by a *Python Dict*, with a timestamp as *key* and corresponding Bounding Boxes as *value*. An example of a frame can be found in the figure below.
 
 ![Detection Example](https://github.com/JoaoSilvaFeup/German-Tram-Sign-Recognition-Dataset/blob/main/Images/detection.png)
 
@@ -70,8 +70,8 @@ Since the dataset does not feature a balanced distribution of appearances, which
 
 The manually devised SVGs can be inserted into real scenes, after being converted to PNGs. These, during the conversion process, can take any size desired, since SVGs are "infinitly" scalable. The conversion can be performed using the library [cairosvg](https://cairosvg.org/), with Python.
 
-The **Ideal Signs folder** contains the workspace used, in the *"ideal signs.svg"* file.
+The **_Ideal Signs_ folder** contains the workspace used, in the *"ideal signs.svg"* file.
 
-Additionally, in the **Ideal Signs / Base SVGs folder**, one can find the exported base classes, featured in the *"Seen German Tram Signs"* PDF.
+Additionally, in the **_Ideal Signs / Base SVGs_ folder**, one can find the exported base classes, featured in the *"Seen German Tram Signs"* PDF.
 
-Lastly, in the **Ideal Signs / SVG Signs folder**, all variations observed in the videos were also created as SVGs.
+Lastly, in the **_Ideal Signs / SVG Signs_ folder**, all variations observed in the videos were also created as SVGs.
