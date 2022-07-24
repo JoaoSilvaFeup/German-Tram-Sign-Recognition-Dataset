@@ -48,4 +48,8 @@ Since MATLAB is a proprietary software, for each Labelling Session, a [GroundTru
 
 ### Detection
 
+![Detection Example](https://github.com/JoaoSilvaFeup/German-Tram-Sign-Recognition-Dataset/blob/main/Images/detection.png)
+
 ### Classification
+
+![Classification Example](https://github.com/JoaoSilvaFeup/German-Tram-Sign-Recognition-Dataset/blob/main/Images/classification.png)
