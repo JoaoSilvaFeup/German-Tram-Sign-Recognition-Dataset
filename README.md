@@ -63,3 +63,11 @@ The figure below illustrates an example of the tag assigned to each ROI, that fo
 ![Classification Example](https://github.com/JoaoSilvaFeup/German-Tram-Sign-Recognition-Dataset/blob/main/Images/classification.png)
 
 This partition is composed of a total of approximately 27k ROIs.
+
+## Ideal Signs
+
+Since the dataset does not feature a balanced distribution of appearances, which is quite typical in Sign Recognition applications, ideal signs were created using Inkscape.
+
+The manually devised SVGs can be inserted into real scenes, after being converted to PNGs. These, during the conversion process, can take any size desired, since SVGs are "infinitly" scalable.
+
+The *SVGs folder* contains the workspace used in *"ideal signs.svg"*.
