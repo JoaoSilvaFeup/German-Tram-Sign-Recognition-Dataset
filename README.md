@@ -6,7 +6,7 @@ Within the scope of the dissertation "Environment Detection for Railway Applicat
 
 The novel collection comprises both detection and classification, with the annotations devised for the two partitions being present in this repository.
 
-This README aims at explaining how one can download the footage used for the dataset, extracted from [YouTube videos](https://youtube.com/playlist?list=PLXu4ZCM9_2LyYf7cVcswrJfHWGpOGcLfG), downsample the videos and take advantage of the annotations here at hand. Additionally, a virtual version of the signs is also provided, resorting to SVGs.
+This README aims at explaining how one can download the footage used for the dataset, extracted from [YouTube videos](https://youtube.com/playlist?list=PLXu4ZCM9_2LyYf7cVcswrJfHWGpOGcLfG), downsample the videos and take advantage of the annotations here at hand. Additionally, a virtual version of the targeted railway signs is also provided, resorting to SVGs.
 
 ### Resources
 
