@@ -68,6 +68,10 @@ This partition is composed of a total of approximately 27k ROIs.
 
 Since the dataset does not feature a balanced distribution of appearances, which is quite typical in Sign Recognition applications, ideal signs were created using Inkscape.
 
-The manually devised SVGs can be inserted into real scenes, after being converted to PNGs. These, during the conversion process, can take any size desired, since SVGs are "infinitly" scalable.
+The manually devised SVGs can be inserted into real scenes, after being converted to PNGs. These, during the conversion process, can take any size desired, since SVGs are "infinitly" scalable. These can be trasnformed using the library [cairosvg](https://cairosvg.org/), with Python.
 
-The **SVGs folder** contains the workspace used in *"ideal signs.svg"*.
+The **Ideal Signs folder** contains the workspace used in *"ideal signs.svg"* file.
+
+Additionally, in the **Ideal Signs / Base SVGs folder**, one can find the exported base classes, featured in the *"Seen German Tram Signs"* PDF.
+
+Lastly, in the **Ideal Signs / SVG Signs folder**, all variations observed in the videos are also created as SVGs.
