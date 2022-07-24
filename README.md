@@ -43,3 +43,9 @@ To reduce the number of frames and avoid unnecessary labelling, the videos were 
 Using MATLAB's [Video Labeler Tool](https://www.mathworks.com/help/vision/ug/get-started-with-the-video-labeler.html?s_tid=mwa_osa_a), each downsampled video was labelled, using the labels presented in the *"Seen German Tram Signs"* PDF.
 
 Since MATLAB is a proprietary software, for each Labelling Session, a [GroundTruth object](https://www.mathworks.com/help/vision/ref/groundtruth.html) was saved and a CVS was exported, containing the annotations. For each CSV, a filtered JSON was created with Python.
+
+## Annotations
+
+### Detection
+
+### Classification
