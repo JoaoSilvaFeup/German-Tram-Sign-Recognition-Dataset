@@ -70,7 +70,7 @@ Since the dataset does not feature a balanced distribution of appearances, which
 
 The manually devised SVGs can be inserted into real scenes, after being converted to PNGs. These, during the conversion process, can take any size desired, since SVGs are "infinitly" scalable. The conversion can be performed using the library [cairosvg](https://cairosvg.org/), with Python.
 
-The **Ideal Signs folder** contains the workspace used in *"ideal signs.svg"* file.
+The **Ideal Signs folder** contains the workspace used, in *"ideal signs.svg"* file.
 
 Additionally, in the **Ideal Signs / Base SVGs folder**, one can find the exported base classes, featured in the *"Seen German Tram Signs"* PDF.
 
