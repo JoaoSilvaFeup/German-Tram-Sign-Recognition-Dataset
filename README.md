@@ -13,7 +13,7 @@ Overall, the resources here made available are:
 * A compiled list of all German Tram Signs, along with some additional properties;
 * A compiled list of the German Tram Signs labelled for the dataset;
 * 10 JSON files created for the videos used for Traffic Sign Detection (one file for each video);
-* 1 JSON file containing all labels from the ROIs extracted from the Detection partition;
+* 1 JSON file containing all labels from the ROIs extracted from the Detection partition, used for Classification;
 * The MATLAB Labelling Sessions created to annotate the Detection Partition, using the Video Labeler Tool;
 * The MATLAB script used to downsample the videos;
 * The SVGs manually devised in Inkscape to be used as ideal signs, upon being converted to PNGs.
