@@ -8,6 +8,8 @@ The novel collection comprises both detection and classification, with the annot
 
 This README aims at explaining how one can download the footage used for the dataset, extracted from [YouTube videos](https://youtube.com/playlist?list=PLXu4ZCM9_2LyYf7cVcswrJfHWGpOGcLfG), and take advantage of the annotations here at hand.
 
+### Resources
+
 Overall, the resources here made available are:
 
 * A compiled list of all German Tram Signs, along with some additional properties;
@@ -17,3 +19,13 @@ Overall, the resources here made available are:
 * The MATLAB Labelling Sessions created to annotate the Detection Partition, using the [Video Labeler Tool](https://www.mathworks.com/help/vision/ug/get-started-with-the-video-labeler.html?s_tid=mwa_osa_a);
 * The MATLAB script used to downsample the videos;
 * The SVGs manually devised in [Inkscape](https://inkscape.org/pt/) to be used as ideal signs, upon being converted to PNGs.
+
+## How was the dataset created?
+
+### Targets
+
+Since no clear documentation could be found, in English, compiling all existent German tram signs, a list was devised, compacting in one place, with some additional properties (such as a photo, dimensions...), all found instances.
+
+Since the initially constructed document targeted too many signs, upon the revision of the videos, a filtered list was created, targeting only the signs that always influenced the tram driver.
+
+These list can be found in the **Targets folder**. The overall one is called *"German Tram Signs"*, while the filtered one is called *"Seen German Tram Signs"*.
