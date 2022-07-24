@@ -56,7 +56,7 @@ This partition is composed of a total of almost 100k frames, where nearly 20k co
 
 ### Classification
 
-To create the classification partition, all ROIs were extracted from the Detection Dataset and saved in one folder, identified by a single JSON file.
+To create the classification version, all ROIs were extracted from the Detection partition and saved in one folder, identified by a single JSON file.
 
 The figure below illustrates an example of the tag assigned to each ROI, that follows the pattern {vx_fy: class}. Here, the *dictionary’s key* is composed of *‘vx’*, where *‘v’* stands for *“video”* and *‘x’* signals the respective id, and *‘fy’*, where *‘f’* stands for *“frame”* and *‘y’* signals the sequence by which that ROI appears in video *‘x’*.
 
