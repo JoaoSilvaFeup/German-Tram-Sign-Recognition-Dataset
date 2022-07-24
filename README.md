@@ -38,6 +38,6 @@ The videos were downloaded using [VLC Media Player](https://www.videolan.org/vlc
 
 ### MATLAB
 
-To reduce the number of frames and avoid unnecessary labelling, the videos were downsampled using the MATLAB script present in the *Matlab folder*, **less_fps**.
+To reduce the number of frames and avoid unnecessary labelling, the videos were downsampled using the MATLAB script present in the *Matlab folder*, **less_fps.m**.
 
 Using MATLAB's [Video Labeler Tool](https://www.mathworks.com/help/vision/ug/get-started-with-the-video-labeler.html?s_tid=mwa_osa_a), 
