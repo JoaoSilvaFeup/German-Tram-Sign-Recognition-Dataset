@@ -48,6 +48,8 @@ Since MATLAB is a proprietary software, for each Labelling Session, a [GroundTru
 
 ### Detection
 
+In the **Annotations/Detection folder**, one can find a JSON file for each downsampled video. Each frame is a *Python Dict*, with a timestamp as *key* and corresponding Bounding Boxes as *value*. An example of a frame can be found in the figure below.
+
 ![Detection Example](https://github.com/JoaoSilvaFeup/German-Tram-Sign-Recognition-Dataset/blob/main/Images/detection.png)
 
 ### Classification
