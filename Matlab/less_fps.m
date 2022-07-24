@@ -1,6 +1,6 @@
 %% Read Video
 
-reader = VideoReader('..\Original\4.mp4');
+reader = VideoReader('Insert Input Video Here');
 
 fprintf('Original - FrameRate=%.1f Frames=%d\n', reader.FrameRate, reader.NumFrames);
 
@@ -15,11 +15,11 @@ fprintf('Original - FrameRate=%.1f Frames=%d\n', reader.FrameRate, reader.NumFra
 
 %% Write Video - Lower FrameRate
 
-writer = VideoWriter('4_less_fps_.mp4','MPEG-4');
+writer = VideoWriter('Output Name','MPEG-4');
 
 framerate = 5;
 
-writer.FrameRate = framerate;
+writer.FrameRate = reader.framerate;
 
 open(writer)
 
@@ -37,6 +37,6 @@ close(writer);
 
 %% Read New Video
 
-%new = VideoReader('less_fps.avi');
+%new = VideoReader('Output Name .avi');
 
 %fprintf('New - FrameRate=%.1f Frames=%d\n', new.FrameRate, new.NumFrames);
