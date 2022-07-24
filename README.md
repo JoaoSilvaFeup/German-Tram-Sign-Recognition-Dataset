@@ -1,1 +1,1 @@
-# German-Tram-Sign-Recognition-Dataset
+# German Tram Sign Recognition Dataset
