@@ -34,6 +34,8 @@ These lists can be found in the **Targets folder**. The overall one is called *"
 
 The [YouTube playlist](https://youtube.com/playlist?list=PLXu4ZCM9_2LyYf7cVcswrJfHWGpOGcLfG) contains 12 videos. From these, by order of appearance, videos nº9 and nº10 were not used, as they were captured in undesirable circumstances.
 
+The videos were downloaded using [VLC Media Player](https://www.videolan.org/vlc/download-windows.html), following this [tutorial](https://www.bogotobogo.com/VideoStreaming/VLC/Downloading_YouTube_Video_using_VLC.php).
+
 ### MATLAB
 
-
+Using MATLAB's [Video Labeler Tool](https://www.mathworks.com/help/vision/ug/get-started-with-the-video-labeler.html?s_tid=mwa_osa_a), 
